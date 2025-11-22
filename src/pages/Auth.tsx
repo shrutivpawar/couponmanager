@@ -70,7 +70,7 @@ const Auth = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="hire-me@anshumant.org"
+                placeholder="hire-me@anshumat.org"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -107,7 +107,7 @@ const Auth = () => {
               <p className="text-xs text-muted-foreground text-center">
                 <strong>Demo credentials:</strong>
                 <br />
-                Email: hire-me@anshumant.org
+                Email: hire-me@anshumat.org
                 <br />
                 Password: HireMe@2025!
               </p>
