@@ -41,7 +41,8 @@ const Auth = () => {
         setIsLogin(true);
       }
     } catch (error: any) {
-      toast.error(error.message);
+  toast.error("Auth Error: " + (error?.message ?? JSON.stringify(error)));
+}
     } finally {
       setLoading(false);
     }
