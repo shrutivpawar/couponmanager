@@ -35,14 +35,14 @@ CouponManager is a web application that allows users to create, manage, and trac
     yarn install  
 
 3. Configure environment variables:
-Copy .env.example to .env
-Fill in your database URL, API keys, Supabase keys, etc.
+-Copy .env.example to .env
+-Fill in your database URL, API keys, Supabase keys, etc.
 
 4. Running the Application
 To start the development server:
 
-npm run dev  
-# or  
-yarn dev  
+  npm run dev  
+  # or  
+  yarn dev  
 
 Visit http://localhost:3000 (or whichever port you’re using) in your browser to access the app.
