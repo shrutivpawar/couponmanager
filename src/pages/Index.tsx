@@ -67,8 +67,15 @@ const Index = () => {
   }
 
   if (!user) {
-    return null;
-  }
+  // Add a fallback instead of returning null
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <p>User not logged in. Please <a href="/auth" className="underline text-blue-600">login</a>.</p>
+      </div>
+    </div>
+  );
+}
 
   return (
     <div className="min-h-screen bg-background">
