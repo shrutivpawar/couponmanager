@@ -15,9 +15,9 @@ serve(async (req) => {
   }
 
   try {
-    if (req.method !== 'GET') {
+    if (req.method !== 'POST') {
       return new Response(
-        JSON.stringify({ error: 'Method not allowed. Use GET to list coupons.' }),
+        JSON.stringify({ error: 'Method not allowed. Use POST to list coupons.' }),
         { status: 405, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
       );
     }
