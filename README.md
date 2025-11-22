@@ -39,10 +39,15 @@ CouponManager is a web application that allows users to create, manage, and trac
 -Fill in your database URL, API keys, Supabase keys, etc.
 
 4. Running the Application
-To start the development server:
-
-  npm run dev  
-  # or  
-  yarn dev  
+   To start the development server:
+   ```bash
+   npm run dev
+   #or
+   yarn dev
 
 Visit http://localhost:3000 (or whichever port you’re using) in your browser to access the app.
+
+## AI Usage Notes
+- **Used AI-assisted tools to enhance the UI and improve code structure.
+- **Leveraged AI for suggestions on responsive layout, color themes, and component optimizations.
+- **All final design and code implementations were reviewed and customized manually. 
