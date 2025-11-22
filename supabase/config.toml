@@ -1,0 +1,10 @@
+project_id = "bfrocdxygzwqndhyhzik"
+
+[functions.create-coupon]
+verify_jwt = false
+
+[functions.best-coupon]
+verify_jwt = false
+
+[functions.list-coupons]
+verify_jwt = false
