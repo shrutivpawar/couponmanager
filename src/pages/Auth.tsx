@@ -37,14 +37,14 @@ const Auth = () => {
           },
         });
         if (error) throw error;
-      toast.success("Account created! You can now log in.");
-      setIsLogin(true);
+        toast.success("Account created! You can now log in.");
+        setIsLogin(true);
+      }
+    } catch (error: any) {
+      toast.error("Auth Error: " + (error?.message ?? JSON.stringify(error)));
+    } finally {
+      setLoading(false);
     }
-  } catch (error: any) {
-    toast.error("Auth Error: " + (error?.message ?? JSON.stringify(error)));
-  } finally {
-    setLoading(false);
-  }
   };
 
   return (
