@@ -22,7 +22,7 @@ Deno.serve(async (req) => {
       }
     )
 
-    const demoEmail = 'hire-me@anshumant.org'
+    const demoEmail = 'hire-me@anshumat.org'
     const demoPassword = 'HireMe@2025!'
 
     // Check if user already exists
